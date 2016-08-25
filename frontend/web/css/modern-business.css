@@ -91,3 +91,30 @@ footer {
         height: 70%;
     }
 }
+
+
+#portfolio .portfolio-item {
+	margin: 0 0 15px;
+	right: 0;
+	border-radius: 5px;
+	transition: all ease .5s;
+	-webkit-transition: all ease .5s;
+	-moz-transition: all ease .5s;
+}
+#portfolio .portfolio-item:hover {
+	background: #ffae00;
+	color: #FFF;
+}
+#portfolio .portfolio-item:hover .portfolio-caption, #portfolio .portfolio-item:hover .portfolio-caption p{
+	color: #FFF;
+}
+#portfolio .portfolio-item:nth-child(2) .img-fasteners {
+	background: url("/img/sprite.png") 0px 0px no-repeat;
+}
+#portfolio .portfolio-item:nth-child(3) .img-fasteners {
+	background: url("/img/sprite.png") -93px 0px no-repeat;
+}
+#portfolio .portfolio-item .img-fasteners {
+	width: 85px;
+	height: 60px;
+}

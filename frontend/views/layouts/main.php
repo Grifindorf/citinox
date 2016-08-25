@@ -15,7 +15,7 @@ AppAsset::register($this);
 <?php $this->beginPage() ?>
 
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="<?= Yii::$app->charset ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -201,41 +201,53 @@ AppAsset::register($this);
 	<!-- /.row -->
 
 	<!-- Portfolio Section -->
-	<div class="row">
+	<section id="portfolio" class="row">
 		<div class="col-lg-12">
-			<h2 class="page-header">Portfolio Heading</h2>
+			<h2 class="page-header">Каталог продукции Citinox</h2>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Креплениe к стене</h4>
+					<p class="text-muted">Для крепления табличек к стене с различной толщиной таблички и расстоянием от стены</p>
+				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Креплениe к стене</h4>
+					<p class="text-muted">Для крепления табличек к стене с различной толщиной таблички и расстоянием от стены</p>
+				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6">
-			<a href="portfolio-item.html">
-				<img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#">
+
 			</a>
 		</div>
-	</div>
+	</section>
 	<!-- /.row -->
 
 	<!-- Features Section -->
