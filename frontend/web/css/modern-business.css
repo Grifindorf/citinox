@@ -94,6 +94,7 @@ footer {
 
 
 #portfolio .portfolio-item {
+	height: 175px;
 	margin: 0 0 15px;
 	right: 0;
 	border-radius: 5px;
@@ -108,13 +109,44 @@ footer {
 #portfolio .portfolio-item:hover .portfolio-caption, #portfolio .portfolio-item:hover .portfolio-caption p{
 	color: #FFF;
 }
+#portfolio .portfolio-item .img-fasteners {
+	width: 86px;
+	height: 65px;
+}
 #portfolio .portfolio-item:nth-child(2) .img-fasteners {
 	background: url("/img/sprite.png") 0px 0px no-repeat;
 }
 #portfolio .portfolio-item:nth-child(3) .img-fasteners {
-	background: url("/img/sprite.png") -93px 0px no-repeat;
+	background: url("/img/sprite.png") -90px 0px no-repeat;
 }
-#portfolio .portfolio-item .img-fasteners {
-	width: 85px;
-	height: 60px;
+#portfolio .portfolio-item:nth-child(4) .img-fasteners {
+	background: url("/img/sprite.png") -184px 0px no-repeat;
 }
+#portfolio .portfolio-item:nth-child(5) .img-fasteners {
+	background: url("/img/sprite.png") -270px 0px no-repeat;
+}
+#portfolio .portfolio-item:nth-child(6) .img-fasteners {
+	background: url("/img/sprite.png") 0px -70px no-repeat;
+}
+#portfolio .portfolio-item:nth-child(7) .img-fasteners {
+	background: url("/img/sprite.png") -95px -70px no-repeat;
+}
+#portfolio .portfolio-item:nth-child(8) .img-fasteners {
+	background: url("/img/sprite.png") -194px -62px no-repeat;
+}
+.features{
+	background: url("/img/featuresBackground.png") no-repeat;
+	background-position: center;
+	color: #FFF;
+}
+
+.features .page-header{
+	color: #ffae00;;
+}
+
+.consult{
+	border-radius: 30px;
+	background-color: #ffae00;
+	color: #FFF;
+}
+

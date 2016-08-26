@@ -205,7 +205,7 @@ AppAsset::register($this);
 		<div class="col-lg-12">
 			<h2 class="page-header">Каталог продукции Citinox</h2>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
 				<div class="img-wrap">
 					<div class="img-fasteners"> </div>
@@ -216,60 +216,87 @@ AppAsset::register($this);
 				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
 				<div class="img-wrap">
 					<div class="img-fasteners"> </div>
 				</div>
 				<div class="portfolio-caption">
-					<h4>Креплениe к стене</h4>
-					<p class="text-muted">Для крепления табличек к стене с различной толщиной таблички и расстоянием от стены</p>
+					<h4>Флажковое крепление</h4>
+					<p class="text-muted">Для прямого крепления флажковых табличек</p>
 				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Стержневое крепление</h4>
+					<p class="text-muted">Для крепления табличек к стене либо к потолку с помощью системы для стержней </p>
+				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Тросиковое крепление</h4>
+					<p class="text-muted">ля крепления табличек к стене либо к потолку с помощью системы для тросиков</p>
+				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Свободностоящие</h4>
+					<p class="text-muted">Держатель таблички для настольного размещения и свободнoстоящих табличек</p>
+				</div>
 			</a>
 		</div>
-		<div class="col-md-4 col-sm-6 portfolio-item">
+		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Дополнительные детали</h4>
+					<p class="text-muted">Стабилизирование и расширение стандартных деталей</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+			<a href="#">
+				<div class="img-wrap">
+					<div class="img-fasteners"> </div>
+				</div>
+				<div class="portfolio-caption">
+					<h4>Alinox</h4>
+					<p class="text-muted">Держатели изготовлены из алюминия с защитным покрытием</p>
+				</div>
 			</a>
 		</div>
 	</section>
 	<!-- /.row -->
 
 	<!-- Features Section -->
-	<div class="row">
-		<div class="col-lg-12">
-			<h2 class="page-header">Modern Business Features</h2>
+	<div class="row features">
+		<div class="col-md-6">
+			<img class="img-responsive" src="/img/bakery.png" alt="">
 		</div>
 		<div class="col-md-6">
-			<p>The Modern Business template by Start Bootstrap includes:</p>
-			<ul>
-				<li><strong>Bootstrap v3.3.7</strong>
-				</li>
-				<li>jQuery v1.11.1</li>
-				<li>Font Awesome v4.2.0</li>
-				<li>Working PHP contact form with validation</li>
-				<li>Unstyled page elements for easy customization</li>
-				<li>17 HTML pages</li>
-			</ul>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-		</div>
-		<div class="col-md-6">
-			<img class="img-responsive" src="http://placehold.it/700x450" alt="">
+			<h2 class="page-header">Крепление к стене</h2>
+			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
+			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
+			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
+			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
+
 		</div>
 	</div>
 	<!-- /.row -->
@@ -277,16 +304,19 @@ AppAsset::register($this);
 	<hr>
 
 	<!-- Call to Action Section -->
-	<div class="well">
-		<div class="row">
-			<div class="col-md-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-			</div>
-			<div class="col-md-4">
-				<a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+	<div class="row">
+		<div class="well">
+			<div class="row">
+				<div class="col-md-8">
+					<p>Звоните или оставляйте заявки</p>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn-lg btn-default btn-block consult" href="#">Заказать консультацию у специалиста</a>
+				</div>
 			</div>
 		</div>
 	</div>
+
 
 	<hr>
 
