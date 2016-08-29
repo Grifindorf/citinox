@@ -149,4 +149,27 @@ footer {
 	background-color: #ffae00;
 	color: #FFF;
 }
+.copyright{
+	display: block;
+	font-size: 18px;
+	color: #ffae00;
+	font-family: 'MuseoSansCyrl500';
+	margin-bottom: 20px;
+}
+footer{
+	background-color: #191919;
+	color: #fff;
+	font-family: 'MuseoSansCyrl00';
+}
+footer .de:before{
+	content: "";
+	display: block;
+	background: url(/img/sprite.png) -0px -148px no-repeat;
+	width: 171px;
+	height: 50px;
+}
+
+.adress span{
+	display: block;
+}
 

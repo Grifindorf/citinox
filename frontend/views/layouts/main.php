@@ -126,7 +126,7 @@ AppAsset::register($this);
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
 		<div class="item active">
-			<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+			<div class="fill" style="background-image:url('/img/slide1.png');"></div>
 			<div class="carousel-caption">
 				<h2>Caption 1</h2>
 			</div>
@@ -245,7 +245,7 @@ AppAsset::register($this);
 				</div>
 				<div class="portfolio-caption">
 					<h4>Тросиковое крепление</h4>
-					<p class="text-muted">ля крепления табличек к стене либо к потолку с помощью системы для тросиков</p>
+					<p class="text-muted">Для крепления табличек к стене либо к потолку с помощью системы для тросиков</p>
 				</div>
 			</a>
 		</div>
@@ -319,17 +319,103 @@ AppAsset::register($this);
 
 
 	<hr>
-
+</div>
 	<!-- Footer -->
 	<footer>
-		<div class="row">
-			<div class="col-lg-12">
-				<p>Copyright &copy; Your Website 2014</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="copyright">citinox.com.ua © 2016</span>
+					<span class="copyright-mid">Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</span>
+					<span class="de">citinox.de</span>
+				</div>
+				<div class="col-md-4">
+					<section class="row">
+						<div class="col-lg-12">
+							<h2 class="page-header">Каталог товаров</h2>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">К стене</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Флажковое</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Стержневое</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Тросиковое</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Свободностоящие</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Детали</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-6 portfolio-item">
+							<a href="#">
+								<div class="img-wrap">
+									<div class="img-fasteners"> </div>
+								</div>
+								<div class="portfolio-caption">
+									<p class="text-muted">Alinox</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+				<div class="col-md-4 adress">
+					<span>г. Киев</span>
+					<span>ул. Магнитогорская, 1Б, офис 219</span>
+					<span>тел.: +380 44 466 60 44</span>
+				</div>
 			</div>
 		</div>
 	</footer>
 
-</div>
+
 <!-- /.container -->
 <!-- Script to Activate the Carousel -->
 <script>
