@@ -184,10 +184,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-1"></i>
 					<h4>Креплениe к стене</h4>
 					<p class="text-muted">Для крепления табличек к стене с различной толщиной таблички и расстоянием от стены</p>
 				</div>
@@ -195,10 +193,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-2"></i>
 					<h4>Флажковое крепление</h4>
 					<p class="text-muted">Для прямого крепления флажковых табличек</p>
 				</div>
@@ -206,10 +202,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-3"></i>
 					<h4>Стержневое крепление</h4>
 					<p class="text-muted">Для крепления табличек к стене либо к потолку с помощью системы для стержней </p>
 				</div>
@@ -217,10 +211,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-4"></i>
 					<h4>Тросиковое крепление</h4>
 					<p class="text-muted">Для крепления табличек к стене либо к потолку с помощью системы для тросиков</p>
 				</div>
@@ -228,10 +220,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-5"></i>
 					<h4>Свободностоящие</h4>
 					<p class="text-muted">Держатель таблички для настольного размещения и свободнoстоящих табличек</p>
 				</div>
@@ -239,10 +229,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-6"></i>
 					<h4>Дополнительные детали</h4>
 					<p class="text-muted">Стабилизирование и расширение стандартных деталей</p>
 				</div>
@@ -250,10 +238,8 @@ AppAsset::register($this);
 		</div>
 		<div class="col-md-3 col-sm-6 portfolio-item">
 			<a href="#">
-				<div class="img-wrap">
-					<div class="img-fasteners"> </div>
-				</div>
 				<div class="portfolio-caption">
+					<i class="fi fi-fw fi-type-7"></i>
 					<h4>Alinox</h4>
 					<p class="text-muted">Держатели изготовлены из алюминия с защитным покрытием</p>
 				</div>
