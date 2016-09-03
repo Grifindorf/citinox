@@ -355,7 +355,7 @@ AppAsset::register($this);
 				<div class="col-md-4 adress">
 					<span>г. Киев</span>
 					<span>ул. Магнитогорская, 1Б, офис 219</span>
-					<span>тел.: +380 44 466 60 44</span>
+					<span class="tel">тел.: +380 44 466 60 44</span>
 				</div>
 			</div>
 		</div>
