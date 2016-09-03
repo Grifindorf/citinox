@@ -16,6 +16,7 @@ class AppAsset extends AssetBundle
 	    '//fonts.googleapis.com/css?family=Kaushan+Script',
 	    '//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
 	    '//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',
+	    '//fonts.googleapis.com/css?family=Open+Sans',
 	    'css/bootstrap.min.css',
 	    'css/modern-business.css',
 	    'css/font-awesome.min.css'

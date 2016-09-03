@@ -15,7 +15,7 @@ AppAsset::register($this);
 <?php $this->beginPage() ?>
 
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>" xmlns="http://www.w3.org/1999/html">
+<html lang="<?= Yii::$app->language ?>" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="<?= Yii::$app->charset ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,15 +45,15 @@ AppAsset::register($this);
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.html">О нас</a>
 				</li>
 				<li>
-					<a href="services.html">Services</a>
+					<a href="services.html">Сотрудничество</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="contact.html">Наши контакты</a>
 				</li>
-				<li class="dropdown">
+				<!--<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li>
@@ -106,7 +106,7 @@ AppAsset::register($this);
 							<a href="pricing.html">Pricing Table</a>
 						</li>
 					</ul>
-				</li>
+				</li>-->
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
@@ -263,25 +263,22 @@ AppAsset::register($this);
 		</div>
 	</div>
 	<!-- /.row -->
-
-	<hr>
-
 	<!-- Call to Action Section -->
 	<div class="row">
 		<div class="well">
 			<div class="row">
-				<div class="col-md-8">
-					<p>Звоните или оставляйте заявки</p>
+				<div class="col-md-4 cta-1">
+					<span class="cta-text">Звоните или оставляйте заявки</span>
 				</div>
-				<div class="col-md-4">
-					<a class="btn btn-lg btn-default btn-block consult" href="#">Заказать консультацию у специалиста</a>
+				<div class="col-md-4 cta-2">
+					<span class="cta-text">(044) 466-60-40</span>
+				</div>
+				<div class="col-md-4 cta-3">
+					<span class="cta-text"><a class="btn btn-lg btn-default btn-block consult" href="#">Заказать консультацию</a></span>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-	<hr>
 </div>
 	<!-- Footer -->
 	<footer>
@@ -299,71 +296,57 @@ AppAsset::register($this);
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">К стене</p>
+									<i class="fi fi-fw fi-type-1"></i>
+									К стене
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Флажковое</p>
+									<i class="fi fi-fw fi-type-2"></i>
+									Флажковое
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Стержневое</p>
+									<i class="fi fi-fw fi-type-3"></i>
+									Стержневое
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Тросиковое</p>
+									<i class="fi fi-fw fi-type-4"></i>
+									Тросиковое
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Свободностоящие</p>
+									<i class="fi fi-fw fi-type-5"></i>
+									Свободностоящие
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Детали</p>
+									<i class="fi fi-fw fi-type-6"></i>
+									Детали
 								</div>
 							</a>
 						</div>
 						<div class="col-md-6 col-sm-6 portfolio-item">
 							<a href="#">
-								<div class="img-wrap">
-									<div class="img-fasteners"> </div>
-								</div>
 								<div class="portfolio-caption">
-									<p class="text-muted">Alinox</p>
+									<i class="fi fi-fw fi-type-7"></i>
+									Alinox
 								</div>
 							</a>
 						</div>
