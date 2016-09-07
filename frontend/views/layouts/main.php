@@ -43,6 +43,7 @@ AppAsset::register($this);
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="tel"><span class="prefix">+38</span> (044) 466-60-44</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<a href="about.html">О нас</a>
@@ -128,7 +129,15 @@ AppAsset::register($this);
 		<div class="item active">
 			<div class="fill" style="background-image:url('/img/slide1.png');"></div>
 			<div class="carousel-caption">
-				<h2>Caption 1</h2>
+				<div class="slide-cont-left">
+					<div class="sd-1-text-1"> Дистанционные держатели</div>
+					<span class="cta-text"><a class="btn btn-lg btn-default btn-block consult" href="#">Перейти к каталогу продукции</a></span>
+				</div>
+				<div class="slide-cont-right">
+					<div class="sd-1-text-2">и подвесные системы</div>
+					<span class="sd-1-text-3">Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</span>
+				</div>
+				<h2></h2>
 			</div>
 		</div>
 		<div class="item">
@@ -249,17 +258,19 @@ AppAsset::register($this);
 	<!-- /.row -->
 
 	<!-- Features Section -->
-	<div class="row features">
+	<div id="features" class="row">
 		<div class="col-md-6">
 			<img class="img-responsive" src="/img/bakery.png" alt="">
 		</div>
 		<div class="col-md-6">
-			<h2 class="page-header">Крепление к стене</h2>
+			<h2 class="page-header"><i class="fi fi-fw fi-type-1"></i>
+				Крепление к стене</h2>
 			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
 			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
 			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
 			<p>Мы предлагаем большой выбор высококачественных креплений для изделий из стекла и табличек производства компании FORWERK (Германия)</p>
-
+			<br>
+			<a href="#"><span class="full-text">Читать полностью</span></a>
 		</div>
 	</div>
 	<!-- /.row -->
